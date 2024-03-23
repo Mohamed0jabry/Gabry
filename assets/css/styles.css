@@ -104,7 +104,7 @@ img {
 }
 .l-main
 {
-  width: 150%;
+  width: 100%;
 }
 .l-header {
   width: 100%;
@@ -261,7 +261,7 @@ img {
   padding-top: 30px;
   padding-bottom: 60px;
   background-color: #f6f6f6f6;
-  width: 200%;
+  width: 100%;
 }
 
  .about__container {
