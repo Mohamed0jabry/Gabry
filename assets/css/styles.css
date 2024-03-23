@@ -252,6 +252,7 @@ img {
   padding-top: 30px;
   padding-bottom: 60px;
   background-color: #f6f6f6f6;
+  width: calc(100% + 80px );
 }
 
  .about__container {
@@ -326,7 +327,17 @@ img {
   z-index: 1;
   
 }
-
+@media screen and (max-width: 767px)
+{
+  .col .srv .text 
+      {
+        width: 50%;
+        justify-content: center;
+      }
+      .image img{
+        display: none;
+      }
+}
 .col .srv .text:hover p
 {
   display: block;
