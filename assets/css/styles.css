@@ -447,7 +447,7 @@ img {
   text-align: center;
   font-weight: var(--font-semi);
   padding: 2rem 0;
-    width: calc(100% + 100px);
+    width: 200%;
 }
 
 .footer__title {
