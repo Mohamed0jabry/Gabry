@@ -47,10 +47,10 @@ const sr = ScrollReveal({
     distance: '60px',
     duration: 2000,
     delay: 200,
-//     reset: true
+     reset: true
 });
 
 sr.reveal('.home__data, .about__img, .text h2, .text',{}); 
-sr.reveal('.home__img, .about__subtitle, .about__text, .about',{delay: 400}); 
+sr.reveal('.home__img, .about__subtitle, .about__text, .image',{delay: 400}); 
 sr.reveal('.home__social-icon',{ interval: 200}); 
 sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200}); 
