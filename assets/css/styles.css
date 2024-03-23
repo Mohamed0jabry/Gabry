@@ -82,7 +82,14 @@ img {
         letter-spacing: -3px;
         margin: 0;
 }
+@media screen and (max-width: 767px)
+{
+  .section-title
+  {
+    font-size: 50px;
+  }
 
+}
 .section {
   padding-top: 3rem;
   padding-bottom: 2rem;
@@ -331,6 +338,7 @@ img {
   .col .srv .text 
       {
         width: 50%;
+        margin-left: 80px;
       }
       .image img{
         display: none;
