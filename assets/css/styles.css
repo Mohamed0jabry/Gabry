@@ -260,13 +260,9 @@ img {
 .contener
 {
   background-color: #f6f6f6f6;
-   /*padding-top: 30px;
+   padding-top: 30px;
   padding-bottom: 60px;
-  width: 100%; */
-   max-width: 1024px;
-  display: grid;
-  margin-left: var(--mb-2);
-  margin-right: var(--mb-2);
+  width: 100%; 
 }
 
  .about__container {
