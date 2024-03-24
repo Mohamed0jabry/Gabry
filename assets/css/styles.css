@@ -310,6 +310,7 @@ img {
   border-radius: 5px;
   top: 110px;
   z-index: 6;
+   transition: 0.60s;
 }
 .col .srv .text p::before
 {
